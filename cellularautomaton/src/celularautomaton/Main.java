@@ -13,7 +13,7 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 public class Main {
 	public static void main(String[] args) {
-		World a = new World(2);
+		World a = new World(200);
 		int generationsNumber = 100;
 		
 		XYSeries series1 = new XYSeries("Pessoas suscetíveis");

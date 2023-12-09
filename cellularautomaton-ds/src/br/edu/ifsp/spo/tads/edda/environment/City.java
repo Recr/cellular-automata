@@ -24,7 +24,7 @@ public class City {
 	}
 
 	private void createPopulation() {
-		double susceptibleRate = 0.95;
+		double susceptibleRate = 0.995;
 		double infectedRate = 1 - susceptibleRate;
 		int infectedAmount = (int) (size * size * infectedRate);
 		if(infectedAmount == 0)

@@ -5,7 +5,7 @@ import java.util.Random;
 public class World {
 
 	private int size;
-	private double suscetibleRate = 0.95;
+	private double suscetibleRate = 0.995;
 	private double infectedRate = 1 - suscetibleRate;
 	private int infe;
 	private int susc;
